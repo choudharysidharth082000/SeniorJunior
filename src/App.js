@@ -11,6 +11,8 @@ function App() {
         <Counter />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+
+          Hello there
         </p>
         <span>
           <span>Learn </span>
