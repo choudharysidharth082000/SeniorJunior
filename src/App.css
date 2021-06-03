@@ -141,3 +141,58 @@
   font-family: poppins, sans-serif;
 
 }
+/* header styles*/
+.header{
+  position:absolute;
+  background: #E5C656;
+  width: 100%;
+  height: 220px;
+}
+.btn-menu{
+  box-shadow: 0 0 3px #000; 
+  border:transparent;
+  border-radius: 5px;
+ padding: 5px;
+  position:absolute;
+  margin-top:  70px;
+ margin-left: 17px;
+  color:#FFFFFF;
+  background: #E5C656;
+  width:38px;
+}
+.logo{
+  text-align: center;
+  font-family: poppins, sans-serif;
+  color:#FFFFFF;
+  font-weight: 600px;
+  font-style: normal;
+  font-size: 60px;
+  text-shadow:1px 1px 1px #000 ;
+  }
+  .searchbar{
+    background: #E5C656;
+    margin-top: 55px;
+    margin-left: 1000px;
+  }
+  .search{
+    box-shadow: 0 0 3px #000;
+   
+    margin:5px;
+ font-size: 24px;
+ width: 350px;
+height: 40px;
+border:transparent;
+border-radius: 23.5px;
+  }
+  .btn-search{
+    box-shadow: 0 0 3px #000;
+    background: white;
+    color:#E5C656;
+    font-size: 22px;
+    margin: 15px;
+    width: 110px;
+    height: 38px;
+    border-radius: 5px;
+    border:transparent;
+  }
+
