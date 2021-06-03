@@ -9,7 +9,7 @@ const footer = () => {
                 <div className="footer__handles">
                     <div className="footer__logo">
 
-                        <h3>LOGO</h3>
+                        <h3>LOGOS</h3>
                         <p>LOGO is a cloud-based mobile and desktop messaging app with a focus on security and speed.</p>
 
                     </div>
