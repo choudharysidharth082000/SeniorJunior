@@ -1,39 +1,141 @@
-.App {
-  text-align: center;
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* styling the footer in the section  */
+.containorfooter
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 35%;
+  background-color: white;
+  border-top: 1px solid rgba(0, 0, 0, 0.137);
+    
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
-}
-
-.App-header {
-  min-height: 100vh;
+.footer__bottom
+{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  background-color: #E5C656;
+  color: white;
+  transition: 1s ease;
+}
+.footer__bottom:hover
+{
+  background-color: #e0be44 ;
+}
+.footer 
+{
+  padding-bottom: -90px;
+}
+.footer__bottom p
+{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+
+}
+.footer__handles 
+{
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr ;
+  position: absolute;
+  bottom: 10px;
+  
+  
+}
+.footer__query, .footer__handles, .footer__links
+{
+  height: 200px;
+
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.footer__query
+{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 60px;
+  padding-left: 30%;
+  
+  
+  
 }
+.footer__query h3
+{
+  font-weight: 500;
+  font-size: 1.9rem;
+  
+  padding-left: -30px;
+  padding-bottom: 10px;
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+}
+.footer__query p
+{
+  font-size: 1.2rem;
+  padding-left: 10px;
+  font-family: poppins, sans-serif;
+}
+.footer__links 
+{
+  background-color:white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 60px;
+  padding-left: 20%;
+
+}
+.footer__logo
+{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 60px;
+  padding-left: 20%;
+  
+
+}
+.footer__logo h3
+{
+  font-size: 1.9rem;
+  font-weight: 500;
+  
+  padding-left: -30px;
+  padding-bottom: 10px;
+}
+.footer__logo p
+{
+  font-size: 1.2rem;
+  
+  font-family: poppins, sans-serif;
+
+}
+.footer__links h3
+{font-size: 1.9rem;
+  font-weight: 500;
+  
+  padding-left: -30px;
+  padding-bottom: 10px;
+
+}
+.footer__links p
+{
+  font-size: 1.2rem;
+  
+  font-family: poppins, sans-serif;
+
 }
