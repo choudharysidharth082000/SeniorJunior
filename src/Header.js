@@ -3,13 +3,30 @@ import MenuIcon from '@material-ui/icons/Menu';
 import ReactDOM from "react-dom";
 
 function Header() {
-    return (<div className="header">
-        <h1 className="logo">Logo</h1>
-        <button type="button" className="btn-menu"><MenuIcon /></button>
-        <div className="searchbar">
-            <input className="search" placeholder="Search..."></input>
+    return (
+        <div className="headercontainor">
+            <div className="header__logo">
 
-            <button type="submit" className="btn-search">Submit</button></div>
-    </div>);
+                <p>Logo</p>
+
+            </div>
+
+            <div className="header__items">
+                <div className="header__hamburger">
+
+
+                </div>
+                <div className="header__form">
+                    <form type="submit" action="">
+                        <input className="header__form__input" type="text" placeholder="Search" />
+                        <button className="header__form__button">Submit</button>
+                    </form>
+
+                </div>
+            
+            </div>
+
+        </div>
+    );
 }
 export default Header;
